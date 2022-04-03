@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Plant Planet",
+    "slug": "PlantPlanet",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.testUser.PlantPlanet",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.testUser.PlantPlanet",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    }
+  }
+}
